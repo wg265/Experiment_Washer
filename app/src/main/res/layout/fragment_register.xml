@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.RegisterFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/register_username"
+        android:hint = "Username:"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Password:"
+        app:layout_constraintEnd_toEndOf="@+id/register_username"
+        app:layout_constraintStart_toStartOf="@+id/register_username"
+        app:layout_constraintTop_toBottomOf="@id/register_username"/>
+    <EditText
+        android:id="@+id/register_confirm"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Confirm Password:"
+        app:layout_constraintEnd_toEndOf="@+id/register_username"
+        app:layout_constraintStart_toStartOf="@+id/register_username"
+        app:layout_constraintTop_toBottomOf="@id/register_password"/>
+    <EditText
+        android:id="@+id/phone_num"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Phone Number:"
+        app:layout_constraintStart_toStartOf="@+id/register_username"
+        app:layout_constraintTop_toBottomOf="@+id/register_confirm"
+        app:layout_constraintEnd_toEndOf="@id/register_username"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        app:layout_constraintStart_toStartOf="@+id/phone_num"
+        app:layout_constraintTop_toBottomOf="@+id/phone_num"
+        app:layout_constraintEnd_toEndOf="@id/phone_num"/>
+<!--    <Button-->
+<!--        android:id="@+id/go_to_login"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="I have a count. Go to Login"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/register"-->
+<!--        app:layout_constraintStart_toStartOf="@id/register"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/register"/>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

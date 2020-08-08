@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/washer_graph"
+    app:startDestination="@+id/navigation_washers">
+    <fragment
+        android:id="@+id/navigation_washers"
+        android:name="com.laioffer.dryer.ui.washers.WasherFragment"
+        tools:layout="@layout/fragment_washers"
+        android:label="Washers"/>
+    <fragment
+        android:id="@+id/navigation_reservations"
+        android:name="com.laioffer.dryer.ui.reservation.ReservationFragment"
+        tools:layout="@layout/fragment_reservations"
+        android:label="Reservations"/>
+    <fragment
+        android:id="@+id/navigation_config"
+        android:name="com.laioffer.dryer.ui.others.ConfigFragment"
+        tools:layout="@layout/fragment_config"
+        android:label="Config"/>
+    <fragment
+        android:id="@+id/navigation_experiment"
+        android:name="com.laioffer.dryer.ui.others.ExperimentFragment"
+        tools:layout="@layout/fragment_experiment"
+        android:label="Experiment"/>
+</navigation>

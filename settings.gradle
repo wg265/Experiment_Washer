@@ -1,0 +1,3 @@
+rootProject.name='Dryer'
+include ':app'
+include ':lib'

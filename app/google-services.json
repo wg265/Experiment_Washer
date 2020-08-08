@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "661242498786",
+    "firebase_url": "https://washer-16581.firebaseio.com",
+    "project_id": "washer-16581",
+    "storage_bucket": "washer-16581.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661242498786:android:05138e7294328cc62b98bb",
+        "android_client_info": {
+          "package_name": "com.laioffer.dryer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661242498786-ahrkkgj0d843tgh652j8ulv1t4enir6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB_Q4t3tsWEkkVTLc8kxkrh56IN2wwN2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661242498786-ahrkkgj0d843tgh652j8ulv1t4enir6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

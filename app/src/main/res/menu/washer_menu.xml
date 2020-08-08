@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/navigation_washers"
+    android:title="Washers"/>
+    <item
+        android:id="@+id/navigation_reservations"
+        android:title="Reses"/>
+    <item
+        android:id="@+id/navigation_experiment"
+        android:title="Exps"/>
+    <item
+        android:id="@+id/navigation_config"
+        android:title="Config"/>
+
+</menu>
